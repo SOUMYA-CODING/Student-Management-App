@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menu_screen"
+    tools:context=".menu_page">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="50dp">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="286dp" />
+
+        <Button
+            android:id="@+id/department_menu"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button_color"
+            android:onClick="department_activity"
+            android:text="Mark Entry "
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="24dp" />
+
+        <Button
+            android:id="@+id/student"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/button_color"
+            android:onClick="add_student_activity"
+            android:text="Add Student"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Body1"
+            android:textColor="#ffffff"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
